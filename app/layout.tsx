@@ -68,6 +68,13 @@ export default async function RootLayout({
           dangerouslySetInnerHTML={{
             __html: THEME_COLOR_SCRIPT,
           }}
+
+          {/* ✅ Paste your tracking script here */}
+        <script
+          async
+          src="https://ghostref-ai.vercel.app/tracker.js"
+          data-site="d21a2797-5d8e-44c1-ab63-0581f54cd74e"
+        ></script>
         />
       </head>
       <body className="antialiased">
